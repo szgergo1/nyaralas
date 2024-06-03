@@ -1,0 +1,42 @@
+header{
+    background-color: red;
+    text-align: center;
+    height: 250px;
+    width: 75%;
+    color: white;
+    text-decoration: underline;
+    font-size: 50px;
+    padding-top: 75px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+footer{
+    margin-top: 75px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    text-decoration: underline;
+    color: rgb(157, 61, 37);
+    animation: colorChange 3s infinite;
+}
+
+footer a:hover {
+    color: orange;
+    font-size: larger;
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    20% { color: yellow; }
+    40% { color: green; }
+    60% { color: blue; }
+    80% { color: rgb(0, 255, 119); }
+    100% { color: red; }
+}
+
+.col-md-6 {
+    margin: 25px 0; /* Felső és alsó 25px margin */
+}
