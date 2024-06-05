@@ -6,9 +6,9 @@ header{
     color: white;
     text-decoration: underline;
     font-size: 50px;
-    padding-top: 75px;
+    padding-top: 25px;
     margin: 0 auto;
-    margin-bottom: 75px;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -38,5 +38,119 @@ footer a:hover {
 }
 
 .col-md-6 {
-    margin: 25px 0; /* Felső és alsó 25px margin */
+    margin: 25px 0;
 }
+
+#tolna{
+    width: 40%;
+    height: 40%;
+}
+
+.thumbnail {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail-large {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail-large:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal:target {
+    display: flex;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 25%;
+    max-height: 75%;
+}
+
+.modal-content-large {
+    margin: auto;
+    display: block;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#hinta{
+    height: 50%;
+    width: 50%;
+}
+
+#egész {
+    width: 404px;
+    height: 48px;
+    margin-left: 600px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+#forgo {
+    width: 900px;
+    height: 25px;
+    margin-left: 200px;
+    background: linear-gradient(90deg, red, orange);
+    position: absolute;
+    animation: rotateAnimation 10s infinite linear; 
+}
+
+#ido {
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: large;
+    background-color: rgb(78, 143, 255);
+    width: 400px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+
+@keyframes rotateAnimation {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }

@@ -3,50 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nyári élmény</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <header>
-        <div id="head">Nyári élmények</div>
+        <div id="head">Nyári élmények<br>Mözsi búcsú<br><br></div>
     </header>
+    <div id="egész">  
+        <div id="forgo"></div>   
+        <div id="ido"></div>
+    </div>
+
+    
+
+
 
 
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-6 text-center">
-                <h2>Bal oldal</h2>
-                <p>Ez a bal oldal tartalma.</p>
+                <h2>Esemény</h2>
+                <p>A mözsi búcsú egy hagyományos és várva várt esemény Tolna vármegye egyik kis településén, Mözsön.<br>Minden évben megrendezik, általában Húsvét hétfőn, amikor a közösség tagjai és a környező falvak lakói összegyűlnek, hogy együtt ünnepeljenek.<br>A búcsú vallási és kulturális elemeket ötvöz: a templomi szertartások és körmenetek mellett vásárok, vidámpark, kézműves foglalkozások és különféle szórakoztató programok várják az érdeklődőket.</p>
             </div>
             <div class="col-md-6 text-center">
-                <h2>Jobb oldal</h2>
-                <p>Ez a jobb oldal tartalma.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-6 text-center">
-                <h2>Bal oldal</h2>
-                <p>Ez a bal oldal tartalma.</p>
-            </div>
-            <div class="col-md-6 text-center">
-                <h2>Jobb oldal</h2>
-                <p>Ez a jobb oldal tartalma.</p>
+                <h2></h2>
+                <p><a href="#hintaModal">
+                    <img src="image.png" alt="hinta" class="thumbnail-large rounded">
+                </a>
+                <div id="hintaModal" class="modal">
+                    <a href="#" class="close">&times;</a>
+                    <img class="modal-content-large rounded" src="image.png">
+                </div></p>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-6 text-center">
-                <h2>Bal oldal</h2>
-                <p>Ez a bal oldal tartalma.</p>
+                <h2>Társaság, Élmények</h2>
+                <p>Idén a családommal, mamámékkal és az ottani ismerőseinkel voltunk a búcsúban.<br>Mivel elég rikán találkozunk, ezért minden évben ez egy jó közös program.<br>Ha minden jól megy akkor jövőre is negyünk.</p>
             </div>
             <div class="col-md-6 text-center">
-                <h2>Jobb oldal</h2>
-                <p>Ez a jobb oldal tartalma.</p>
+                <p><a href="#imgModal"><img src="kép2.jpg" alt="kép" class="thumbnail rounded-circle"></a>
+                <div id="imgModal" class="modal">
+                    <a href="#" class="close">&times;</a>
+                    <img class="modal-content" src="kép2.jpg">
+                </div></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2>Útvonalterv</h2>
+                <p><a href="https://www.google.com/maps/dir/47.6483478,17.6145916/Tolna/@47.0503538,16.9413965,8z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x4742f13b2c50ef13:0x93925f05c69a8834!2m2!1d18.7752069!2d46.4258265!3e0?entry=ttu" target="_blank"><img src="útvonal.png" alt="Útvonal Tolnára" title="Google Maps" id="tolna" class="rounded"></a></p>
             </div>
         </div>
     </div>
 
     <footer>
         <b><p>&copy; 2024 <a href="https://github.com/szgergo1" target="_blank">Szuprics Gergő</a></p></b>
+    </footer>
+
+    <script src="ido.js"></script>
 </body>
 </html>
