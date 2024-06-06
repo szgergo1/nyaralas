@@ -1,5 +1,5 @@
 header{
-    background-color: red;
+    background-color: rgb(78, 143, 255);
     text-align: center;
     height: 250px;
     width: 75%;
@@ -9,6 +9,10 @@ header{
     padding-top: 25px;
     margin: 0 auto;
     margin-bottom: 20px;
+    border-right: 4px solid blue;
+    border-left: 4px solid blue;
+    border-bottom: 4px solid blue;
+    font-weight: bolder;
 }
 
 footer{
@@ -131,7 +135,7 @@ footer a:hover {
     margin-top: 20px;
     background: rgb(0, 255, 64);
     position: absolute;
-    animation: rotateAnimation 10s infinite linear; 
+    animation: rotateAnimation 20s infinite linear; 
 }
 
 #ido {
@@ -155,5 +159,9 @@ footer a:hover {
     100% {
       transform: translate(-50%, -50%) rotate(360deg);
     }
-  }
+}
+
+h2{
+    color: blue;
+}
 
