@@ -116,19 +116,20 @@ footer a:hover {
 }
 
 #egész {
-    width: 404px;
+    width: 408px;
     height: 48px;
-    margin-left: 600px;
-    background-color: white;
+    background-color: blue;
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 #forgo {
     width: 900px;
     height: 25px;
     margin-left: 200px;
-    background: linear-gradient(90deg, red, orange);
+    margin-top: 20px;
+    background: rgb(0, 255, 64);
     position: absolute;
     animation: rotateAnimation 10s infinite linear; 
 }
@@ -136,13 +137,14 @@ footer a:hover {
 #ido {
     position: absolute;
     text-align: center;
-    color: black;
+    color: white;
     font-size: large;
     background-color: rgb(78, 143, 255);
     width: 400px;
     height: 40px;
     margin-top: 4px;
     margin-left: 4px;
+    font-weight: bold;
 }
 
 
@@ -154,3 +156,4 @@ footer a:hover {
       transform: translate(-50%, -50%) rotate(360deg);
     }
   }
+
